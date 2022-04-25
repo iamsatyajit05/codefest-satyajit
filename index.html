@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Water+Brush&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="img/favicon.JPG" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Fragrance of South - The Real Fun</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <input type="checkbox" id="check">
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <br>
+        <div class="links">
+            <a class="navlinks" href="#ourServices">Our Services</a>
+            <a class="navlinks" href="#ourMenu">Our Menu</a>
+            <a class="navlinks" href="#ourTeam">Our Team</a>
+            <a class="navlinks" href="#testiomials">Testimonials</a>
+            <a class="navlinks" href="#visitUs">Visit Us</a>
+            <a class="navlinks" href="#aboutUs">About Us</a>
+        </div>
+        <div class="navBtn">
+            <label for="check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+    </div>
+    <div class="foodslide">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide1 fancytext">
+                    <p><span class="cursive">Tasty</span> Food</p>
+                </div>
+                <div class="swiper-slide slide2 fancytext">
+                    <p><span class="cursive">Delicious</span> Food</p>
+                </div>
+                <div class="swiper-slide slide3 fancytext">
+                    <p><span class="cursive">Healty</span> Food</p>
+                </div>
+                <div class="swiper-slide slide4 fancytext">
+                    <p><span class="cursive">Best</span> Food</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div id="ourServices">
+        <h2>Our <span class="cursive">Services</span></h2>
+        <div class="service-img">
+            <div id="homeDel" class="services">
+                <div>
+                    <img src="img/service1.JPG" alt="">
+                </div>
+                <div>
+                    <p>Free Home Delivery</p> <button class="servicebtn">Order Now</button>
+                </div>
+            </div>
+            <div id="dineout" class="services">
+                <div><img src="img/service2.JPG" alt=""></div>
+                <div>
+                    <p>Dine Out</p> <button class="servicebtn">Book Now</button>
+                </div>
+            </div>
+            <div id="catering" class="services">
+                <div><img src="img/service3.JPG" alt=""></div>
+                <div>
+                    <p>Catering</p> <button class="servicebtn">Check Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ourMenu">
+        <h2>Our <span class="cursive">Menu</span></h2>
+        <div class="menuNav">
+            <button id="btn1" onclick="filterObjects('special')">Special</button>
+            <button id="btn2" onclick="filterObjects('dosa')">Dosa</button>
+            <button id="btn3" onclick="filterObjects('biriyani')">Biriyani</button>
+            <button id="btn4" onclick="filterObjects('uttpam')">Uttpam</button>
+            <button id="btn5" onclick="filterObjects('snacks')">Snacks</button>
+            <button id="btn6" onclick="filterObjects('drink')">Drinks</button>
+        </div>
+
+        <div class="menuItem">
+            <div class="box dosa special">
+                <p>Dosa 1</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, odio.</p>
+            </div>
+            <div class="box dosa">
+                <p>Dosa 2</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, excepturi.</p>
+            </div>
+            <div class="box dosa special">
+                <p>Dosa 3</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, excepturi.</p>
+            </div>
+            <div class="box dosa">
+                <p>Dosa 4</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, excepturi.</p>
+            </div>
+            <div class="box dosa special">
+                <p>Dosa 5</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, excepturi.</p>
+            </div>
+            <div class="box dosa">
+                <p>Dosa 6</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, excepturi.</p>
+            </div>
+
+            <div class="box biriyani">
+                <p>Biriyani 1</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, et!</p>
+            </div>
+            <div class="box biriyani special">
+                <p>Biriyani 2</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, laudantium!</p>
+            </div>
+            <div class="box biriyani special">
+                <p>Biriyani 3</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, laudantium!</p>
+            </div>
+            <div class="box biriyani">
+                <p>Biriyani 4</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, laudantium!</p>
+            </div>
+            <div class="box biriyani">
+                <p>Biriyani 5</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, laudantium!</p>
+            </div>
+            <div class="box biriyani">
+                <p>Biriyani 6</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, laudantium!</p>
+            </div>
+
+            <div class="box uttpam">
+                <p>Uttpam 1</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, mollitia.</p>
+            </div>
+            <div class="box uttpam special">
+                <p>Uttpam 2</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, mollitia.</p>
+            </div>
+            <div class="box uttpam">
+                <p>Uttpam 3</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, mollitia.</p>
+            </div>
+            <div class="box uttpam">
+                <p>Uttpam 4</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, mollitia.</p>
+            </div>
+            <div class="box uttpam special">
+                <p>Uttpam 5</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, mollitia.</p>
+            </div>
+            <div class="box uttpam">
+                <p>Uttpam 6</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, mollitia.</p>
+            </div>
+
+            <div class="box snacks">
+                <p>Snakes 1</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, voluptate!</p>
+            </div>
+            <div class="box snacks">
+                <p>Snakes 2</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, voluptate!</p>
+            </div>
+            <div class="box snacks special">
+                <p>Snakes 3</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, voluptate!</p>
+            </div>
+            <div class="box snacks">
+                <p>Snakes 4</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, voluptate!</p>
+            </div>
+            <div class="box snacks special">
+                <p>Snakes 5</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, voluptate!</p>
+            </div>
+            <div class="box snacks">
+                <p>Snakes 6</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, voluptate!</p>
+            </div>
+
+            <div class="box drink">
+                <p>Drink 1</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, adipisci?
+                </p>
+            </div>
+            <div class="box drink">
+                <p>Drink 2</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, adipisci?
+                </p>
+            </div>
+            <div class="box drink">
+                <p>Drink 3</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, adipisci?
+                </p>
+            </div>
+            <div class="box drink">
+                <p>Drink 4</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, adipisci?
+                </p>
+            </div>
+            <div class="box drink">
+                <p>Drink 5</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, adipisci?
+                </p>
+            </div>
+            <div class="box drink">
+                <p>Drink 6</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, adipisci?
+                </p>
+            </div>
+        </div>
+
+        <button class="orderNow">Order Now <img src="img/smile.webp" alt=""></button>
+    </div>
+
+    <div id="ourTeam">
+        <h2>Our <span class="cursive">Team</span></h2>
+        <div class="team-main">
+            <div class="team-member">
+                <div>
+                    <img id="p1" src="img/person10.png" alt="">
+                </div>
+                <div>
+                    <p>Mr. Patel <a href="https://www.instagram.com" target="_blank"><img class="igImg" height="20px"
+                                src="img/instgram.png" alt="instgram"></a></p>
+                </div>
+            </div>
+            <div class="team-member">
+                <div><img id="p2" src="img/person20.png" alt=""></div>
+                <div>
+                    <p>Mrs. Chef <a href="https://www.instagram.com" target="_blank"><img class="igImg" height="20px"
+                                src="img/instgram.png" alt="instgram"></a></p>
+                </div>
+            </div>
+            <div class="team-member">
+                <div><img id="p3" src="img/person30.png" alt=""></div>
+                <div>
+                    <p>Mr. Chef <a href="https://www.instagram.com" target="_blank"><img class="igImg" height="20px"
+                                src="img/instgram.png" alt="instgram"></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="testiomials">
+        <h2>What People Says About Us :)</h2>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quidem amet repellat rem.</p>
+                    <p class="author">Mr. Adani</p>
+                </div>
+                <div class="swiper-slide">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quidem amet repellat rem.</p>
+                    <p class="author">Mrs. Ambani</p>
+                </div>
+                <div class="swiper-slide">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quidem amet repellat rem.</p>
+                    <p class="author">Mr. Tata</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="fb-page" data-tabs="timeline" data-href="https://www.facebook.com/YoloBookStore" data-width="380"
+        data-hide-cover="false"></div>
+    <div id="visitUs">
+        <h2><span class="cursive">Visit &nbsp;</span> Us</h2>
+        <div class="visit-main">
+            <div class="visit-text">
+                <p> C-1009, B/H Keshav Baugh Party Plot, Vastrapur, Ahmedabad, Gujarat
+                    380015</p>
+            </div>
+            <div class="google-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.8209196949792!2d72.5276986143034!3d23.03034662181822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e83b750c8e96b%3A0x26437e09841e14a1!2sRao%20Information%20Technology%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1650802424941!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="aboutUs">
+        <h2><span class="cursive">About</span> Us</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, in minima blanditiis laudantium cum fuga
+            quo quam expedita neque a accusantium eveniet similique perspiciatis earum.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, in minima blanditiis laudantium cum fuga
+            quo quam expedita neque a accusantium eveniet similique perspiciatis earum.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, in minima blanditiis laudantium cum fuga
+            quo quam expedita neque a accusantium eveniet similique perspiciatis earum.</p>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-left">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <p class="copy-right">Copy Right © 2005</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <img src="img/location.webp" alt="">
+                <p><span>C-1009, B/H Keshav Baugh Party Plot,</span> <span>Vastrapur, Ahmedabad,</span> Gujarat
+                    380015</p>
+            </div>
+            <div>
+                <img src="img/phone.webp" alt="">
+                <p>+91 12345 67890</p>
+            </div>
+            <div>
+                <img src="img/mail.webp" alt="">
+                <p><a href="contact@fragranceofsouth.com">contact@fragranceofsouth.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="hotel-time">
+                <img src="img/clock.webp" alt="">
+                <p><span>Timing</span><span>Home Delivery: 24/7</span>
+                Dine Out: 10AM - 10PM</p>
+            </div>
+            <p class="hotel-socials">
+                Our Socials
+            </p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com"><img src="img/facebook.png" alt=""></a>
+                <a href="https://www.instgram.com"><img src="img/instgram.png" alt=""></a>
+                <a href="https://www.twitter.com"><img src="img/twitter.png" alt=""></a>
+                <a href="https://www.youtube.com"><img src="img/youtube.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+    <div class="callUs"><a href="tel:1234567890">Order Now</a></div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
